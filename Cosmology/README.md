@@ -1,4 +1,4 @@
-Reads a file containing a density fluctuation field in the format: x y delta
+An interesting problem given as homework during my Cosmology course. The program reads a file containing a given density fluctuation field in the format: x y delta
 
 In part A, the code first plots the field by itself, coloring by delta. 
 
