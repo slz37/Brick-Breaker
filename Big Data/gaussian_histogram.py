@@ -27,6 +27,6 @@ ytrue_gauss = norm.pdf(xtrue_gauss, mu, sigma)
 #Create histogram
 _ = fancyhist(x_gauss, bins = "freedman", density = True, histtype = "step")
 _ = plt.plot(xtrue_gauss, ytrue_gauss)
-plt.legend(('Random samples', 'True Distribution'), loc = 'best')
+plt.legend(('True Distribution', 'Random samples'), loc = 'best')
 plt.title('Histogram with Freedman-Diaconis')
 plt.show()
