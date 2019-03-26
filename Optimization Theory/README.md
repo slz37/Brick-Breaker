@@ -1,0 +1,1 @@
+Homework scripts for my optimization theory class. Mainly focuses on solutions to linear problems, the simplex method (both phase I and II), duality theory (including KKT conditions), and a bit of game theory at the end.
