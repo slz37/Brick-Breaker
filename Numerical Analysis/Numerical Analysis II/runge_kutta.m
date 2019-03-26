@@ -8,9 +8,9 @@ h = 0.1;
 alpha = 0;
 k = zeros(1, 4);
 n = ceil((b - a) / h);
+t = linspace(a, b, ((b - a) / h) + 1);
 w = zeros(1, size(t, 2));
 w(1) = alpha;
-t = linspace(a, b, ((b - a) / h) + 1);
 
 %Run Up To n Points
 for i = 1:n
